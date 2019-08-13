@@ -1,4 +1,5 @@
 # ESIM-pytorch
+![高校大数据挑战赛(字节跳动)](https://github.com/dyywinner/ESIM-pytorch/blob/master/img/fm.jpg)
 高校大数据挑战赛(字节跳动)
 https://www.kesci.com/home/competition/5cc51043f71088002c5b8840
 正式赛题——文本点击率预估（5月26日开赛）
