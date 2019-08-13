@@ -13,6 +13,8 @@ https://www.kesci.com/home/competition/5cc51043f71088002c5b8840
 | title | 字符string，term空格分割 | "字节跳动-百科" |
 | label | int，取值{0, 1}，有点击为1，无点击为0 | 1 |
 
+最终成绩
+![rank](https://github.com/dyywinner/ESIM-pytorch/blob/master/img/finalrank_26.jpg)
 
 ## 文件结构
 ```
