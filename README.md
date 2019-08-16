@@ -30,7 +30,7 @@
 │   │   ├── layers.py
 │   │   └── models.py
 │   └── utils.py
-|—— 复赛ESIM线下测试版.ipny
+|—— 复赛ESIM线下测试版.ipynb
 |__ ReadMe.md
 ```
 ## 结果
