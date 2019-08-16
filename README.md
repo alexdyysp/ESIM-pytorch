@@ -46,7 +46,7 @@
   + 使用 MaxPooling 和 AvgPooling 进行池化。
   + 接入一个全连接层。
   
- - Key Idea:
+- Key Idea:
   + a. 不同于简单的siamase lstm, 在ESIM的inter-sentence attention中，有参数的交互而不是传统的共享参数
   + b. 精细的设计序列式的推断结构。
   + c. 用句子间的注意力机制实现局部推断，并进一步实现全局推断。
