@@ -6,9 +6,6 @@ Utility functions for the ESIM model.
 import torch
 import torch.nn as nn
 
-
-# Code widely inspired from:
-# https://github.com/allenai/allennlp/blob/master/allennlp/nn/util.py.
 def sort_by_seq_lens(batch, sequences_lengths, descending=True):
     """
     Sort a batch of padded variable length sequences by their length.
