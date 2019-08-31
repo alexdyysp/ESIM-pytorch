@@ -1,7 +1,7 @@
 """
 Definition of custom layers for the ESIM model.
 """
-# Aurelien Coet, 2018.
+# Alex Dyy, 2019.
 
 import torch.nn as nn
 
