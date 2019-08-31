@@ -1,7 +1,7 @@
 """
 Utility functions for the ESIM model.
 """
-# Aurelien Coet, 2018.
+# Aex Dyy, 2018.
 
 import torch
 import torch.nn as nn
