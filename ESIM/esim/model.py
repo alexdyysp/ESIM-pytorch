@@ -1,7 +1,6 @@
 """
 Definition of the ESIM model.
 """
-# Aurelien Coet, 2018.
 
 import torch
 import torch.nn as nn
