@@ -1,7 +1,7 @@
 """
 Preprocessor and dataset definition for NLI.
 """
-# Aurelien Coet, 2018.
+# Alex, 2019.
 
 import string
 import torch
