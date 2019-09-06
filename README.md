@@ -39,18 +39,17 @@
 ## ESIM 模型与结构
 - A. Input encoding
   + a. 双输入query与title, 分别接入embeding层 + BiLSTM。
-  + b. 使用 BiLSTM 可以学习如何表示一句话中的 word 和它上下文的关系。对在当前的语境下的query与title重新编码，得到新的 embeding 向量。
 - B. Local inference modeling
-  + a. 使用 soft_align_attention, 将两句话进行 alignment。从而得到两个句子 word 之间的相似度(2维的相似度矩阵)
-  + b. 进行两句话的 local inference。用之前得到的相似度矩阵，结合 query与title，互相生成彼此相似性加权后的句子，维度保持不变。
-  + c. 进行 Enhancement of local inference information。这里的 enhancement 就是计算 a 和 align 之后的 a 的差和点积，体现了一种差异性
+  + a. soft_align_attention
+  + b. local inference
+  + c. Enhancement of local inference information
 - C. Inference composition
   + a. 再一次用 BiLSTM 提取上下文信息
-  + b. 使用 MaxPooling 和 AvgPooling 进行池化。
-  + c. 接入一个全连接层，输出时经过softmax，最后得到预测概率
+  + b. MaxPooling 和 AvgPooling
+  + c. 全连接层，输出时经过softmax
   
 - Key Idea:
-  + a. 不同于简单的siamase lstm, 在ESIM的inter-sentence attention中，有参数的交互而不是传统的共享参数
+  + a. 共享参数到参数交互的进步
   + b. 精细的设计序列式的推断结构。
   + c. 用句子间的注意力机制实现局部推断，并进一步实现全局推断。
 
