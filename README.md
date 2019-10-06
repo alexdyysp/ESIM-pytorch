@@ -17,7 +17,10 @@
 *Note*: 文本数据是脱敏的，呈现方式是数字序列，所以没有现成子向量文本可用，需要自己重新训练词向量矩阵
 
 #### 比赛评价指标: Qauc
-各个query_id下的平均auc
+
+选手提交结果的评估指标是qAUC，qAUC为不同query下AUC的平均值，计算如下：
+![rank](https://github.com/dyywinner/ESIM-pytorch/blob/master/img/ps2bm1iwq.png)
+其中AUCi为同一个query_id下的AUC（Area Under Curve）
 
 ### 队伍最终成绩
 ![rank](https://github.com/dyywinner/ESIM-pytorch/blob/master/img/finalrank_26.jpg)
