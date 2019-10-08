@@ -20,6 +20,7 @@
 
 选手提交结果的评估指标是qAUC，qAUC为不同query下AUC的平均值，计算如下：
 ![rank](https://github.com/dyywinner/ESIM-pytorch/blob/master/img/ps2bm1iwq.png)
+
 其中AUCi为同一个query_id下的AUC（Area Under Curve）
 
 ### 队伍最终成绩
