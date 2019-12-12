@@ -42,6 +42,7 @@
 |—— 复赛ESIM线下测试版.ipynb
 |__ ReadMe.md
 ```
+**注**：data文件中的train_data.sample数据文件是官方给参赛选手线下调整模型用的样例文件，仅作测试用只有几千case。真实的比赛环境全在和鲸线上，数据量有超过10亿，所以本项目的数据文件仅是参考，模型效果与真实比赛成绩会有不同。
 ## ESIM 模型与结构
 - A. Input encoding
   + a. 双输入query与title, 分别接入embeding层 + BiLSTM。
